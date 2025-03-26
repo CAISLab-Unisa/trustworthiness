@@ -1,6 +1,5 @@
 function [] = save_training_plot(output_filename)
-%SAVE_TRAINING_PLOT Summary of this function goes here
-%   Detailed explanation goes here
+%SAVE_TRAINING_PLOT 
 
 
     currentfig = findall(groot, 'Tag', 'NNET_CNN_TRAININGPLOT_UIFIGURE');

@@ -1,6 +1,5 @@
 function [trained_nn,trained_nn_score] = train_and_store(dataset_name,ds,ds4perf,ds_split_ratio,nn_name,nn,train_options)
-%TRAIN_AND_STORE Summary of this function goes here
-%   Detailed explanation goes here
+%TRAIN_AND_STORE 
 
     ds_train = ds{1};
     

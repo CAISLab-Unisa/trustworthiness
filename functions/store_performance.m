@@ -1,6 +1,5 @@
 function [] = store_performance(dataset_name,net_name,cnn_network,ds_split_ratio,datasets)
-%store_performance Summary of this function goes here
-%   Detailed explanation goes here
+%store_performance 
 
 
 ds_split_prefix = strcat(string(ds_split_ratio(1)),"_",string(ds_split_ratio(2)),"_",string(ds_split_ratio(3)));

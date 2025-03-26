@@ -1,6 +1,5 @@
 function [] = store_performance_dl(dataset_name,net_name,cnn_network,ds_split_ratio,datasets)
-%store_performance Summary of this function goes here
-%   Detailed explanation goes here
+%store_performance 
 
 
 

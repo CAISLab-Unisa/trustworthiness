@@ -9,9 +9,7 @@ function [ scratch, scratch_score, scratch_da, scratch_da_score, tl, tl_score, t
         nn ...        
     )
 
-%EXECUTE_EXPERIMENT_1 Summary of this function goes here
-%   Detailed explanation goes here
-  
+
     disp(strcat("Experiment:",EXPERIMENT_NAME));
   
 

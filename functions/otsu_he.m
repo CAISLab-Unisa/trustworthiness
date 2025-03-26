@@ -1,6 +1,5 @@
 function [SEGMENTED] = otsu_he(data)
-%OTSU_HE Summary of this function goes here
-%   Detailed explanation goes here
+%OTSU_HE This function performs OTSU AND HOLE EROSION!
  image = data;
  I = uint8(image);
  numColors = 2;

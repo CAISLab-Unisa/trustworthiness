@@ -1,6 +1,5 @@
 function [shadow_ad] = rgb9cer_improve(data)
-%RGB9CER_IMPROVE Summary of this function goes here
-%   Detailed explanation goes here
+%RGB9CER_IMPROVE see rgbCer specs on paper
 
 
  s_lab = rgb2lab(data);
