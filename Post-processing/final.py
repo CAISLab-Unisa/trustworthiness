@@ -45,9 +45,9 @@ for sheet_name, tsv_file in zip(sheets_to_update, tsv_files):
 
     #  enter the values in the columns of the excel)
     for i, value_row in enumerate(df_selected, start=3):  # Inserisce esattamente dalla riga 2 a 201 (200 valori)
-        ws[f"D{i}"] = value_row[0]  # True_Label (colonna D)
-        ws[f"E{i}"] = value_row[1]  # Alexnet_scratch (colonna E)
-        ws[f"F{i}"] = value_row[2]  # Resnet_scratch (colonna F)
+        ws[f"D{i}"] = value_row[0]  
+        ws[f"E{i}"] = value_row[1]  
+        ws[f"F{i}"] = value_row[2] 
 
 # save
 wb.save(output_file)
