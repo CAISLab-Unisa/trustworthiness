@@ -2,7 +2,7 @@ import pandas as pd
 from openpyxl import load_workbook
 import os
 
-# 📍 Percorsi dei file (MODIFICARE se necessario)
+# path
 trustability_file = r".\Trustability_Malign_Updated69.xlsx"
 tsv_folder = r".\prediction"  # Folder with TSV files
 output_file = r".\Trustability_NODR_UpdatedF.xlsx"
