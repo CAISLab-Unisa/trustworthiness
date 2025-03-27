@@ -52,6 +52,6 @@ for sheet_name, tsv_file in zip(sheets_to_update, tsv_files):
 # save
 wb.save(output_file)
 
-print(f"✅ File salvato con successo: {output_file}")
+print(f" File salvato con successo: {output_file}")
 
 
